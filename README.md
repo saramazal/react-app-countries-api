@@ -17,7 +17,8 @@ React App Countries API popup branch
 This project is inspired on restcountries. 
 
 ## Screenshots
-![Countries API](https://github.com/saramazal/react-app-countries-api/blob/main/Countries-API.png)
+![Countries API popup](https://github.com/saramazal/react-app-countries-api/blob/popup/Countries-API-popup.png)
+![Countries API Lader](https://github.com/saramazal/react-app-countries-api/blob/popup/Countries-API-popup-loader.png)
 
 ## Technologies
 * VSCode
@@ -26,7 +27,7 @@ This project is inspired on restcountries.
 * GitHub
 * [Google fonts](https://fonts.google.com/?category=Sans+Serif,Display,Monospace&preview.text=Word%20Smith&preview.text_type=custom)
 * [REACT](https://reactjs.org/docs/getting-started.html/)
-* [![Netlify Status](https://api.netlify.com/api/v1/badges/e570f083-523a-43aa-ad53-55fcc70a520f/deploy-status)](https://app.netlify.com/sites/mazal-countries-api/deploys)
+* [![Netlify Status](https://api.netlify.com/api/v1/badges/494a99c8-db99-4b5b-b7da-74c49be94d96/deploy-status)](https://app.netlify.com/sites/mazal-countries-api-popup/deploys)
 
 ## Setup
 npm install
