@@ -17,7 +17,7 @@ React App Countries API
 This project is inspired on restcountries. 
 
 ## Screenshots
-![Countries API](https://github.com/saramazal/)
+![Countries API](https://github.com/saramazal/react-app-countries-api/blob/main/Countries-API.png)
 
 ## Technologies
 * VSCode
