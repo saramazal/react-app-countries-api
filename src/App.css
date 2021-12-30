@@ -168,7 +168,7 @@ footer {
 h4 {
   text-align: center;
   padding: 40px;
-  
+  font-size: 1.5em;
 }
 a {
   color: #faebd7;
@@ -190,7 +190,6 @@ a:hover {
 
 
 
-
 .overlay {
   position: fixed;
   width: 100vw;
@@ -209,18 +208,42 @@ a:hover {
 }
 
 .popup {
-  background-color: white;
+  background-color: #f4f4f4;
+  color: #767676;
   padding: 10px;
   border-radius: 10px;
+  max-width: 350px;
+  text-align: center;
 }
 
-.countryOpen h2 {
-  max-width: 150px;
+.countryOpen h2, h4 {
+ 
   margin-top: 0;
+  padding: 12px;
+  color: #03dac6;
+}
+.countryOpen h2:hover {
+   color: #FF0266;
+}
+h4:hover {
+   color: #FF0266;
 }
 
 .countryOpen img {
-  width: 150px;
-  border: 1px solid black;
+  width: 270px;
+  border: 2px solid #767676;
   border-radius: 10px;
+  padding: 7px;
+  transition: transform 0.7s ease;
+}
+.countryOpen img:hover {
+  
+  border: 2px solid #FF0266;
+  border-radius: 10px;
+  padding: 7px;
+  transform: scale(1.07);
+}
+span {
+  text-align: center;
+
 }
