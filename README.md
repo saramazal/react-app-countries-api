@@ -8,7 +8,7 @@ React App Countries API
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Features](#features)
+
 * [Status](#status)
 * [Inspiration](#inspiration)
 * [Contact](#contact)
@@ -27,6 +27,10 @@ This project is inspired on restcountries.
 * [Google fonts](https://fonts.google.com/?category=Sans+Serif,Display,Monospace&preview.text=Word%20Smith&preview.text_type=custom)
 * [REACT](https://reactjs.org/docs/getting-started.html/)
 * [![Netlify Status](https://api.netlify.com/api/v1/badges/e570f083-523a-43aa-ad53-55fcc70a520f/deploy-status)](https://app.netlify.com/sites/mazal-countries-api/deploys)
+
+## Setup
+npm install
+npm start
 
 ## Demo
 [Countries API](https://mazal-countries-api.netlify.app/)
