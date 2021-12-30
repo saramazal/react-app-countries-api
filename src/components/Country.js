@@ -7,14 +7,17 @@ export default function Country(props) {
     const { flags, name, capital, region } = props
 
     return <li onClick={() => setPopup(<CountryOpen {...props} />)}>
-        <div
+
+            <label
             className='flag'
             style={{ backgroundImage: `url(${flags.svg})` }}
-        />
-        <div>
-            <div><strong>{name.common}</strong> - {capital}</div>
-            <label>{region}</label>
-        </div>
+        ></label>
+        
+        
+            <label className="name">{name.common}</label> 
+            <label className="capital">{capital}</label>
+            <label className="region">{region}</label>
+        
     </li>
 }
 
@@ -23,8 +26,8 @@ function CountryOpen(props) {
     const { name = {}, flags = {}, languages = {}, population } = props
 
     return <div className='countryOpen'>
-        <h2>{name.common}</h2>
-        <img src={flags.svg} />
+        <h2 >{name.common}</h2>
+        <img className="flag" src={flags.svg} />
         <h4>Population: </h4>
         <span>{population}</span>
         <h4>Languages:</h4>

@@ -19,7 +19,7 @@ export default function Main() {
             })
     }
 
-    if (!list) return 'loading'
+    if (!list) return 'loading' 
 
     const filteredList = list.filter(c =>
         c.name.common
@@ -28,9 +28,10 @@ export default function Main() {
     )
 
     return <main>
+   
         <SearchContext.Provider value={setSearchValue}>
-            <Header countriesNum={filteredList.length} />
-        </SearchContext.Provider>
+         <Header countriesNum={filteredList.length} />
+        </SearchContext.Provider><div className="loading"> </div>
         <CountriesList list={filteredList} />
     </main>
 }
