@@ -27,7 +27,7 @@ function CountryOpen(props) {
 
     return <div className='countryOpen'>
         <h2 >{name.common}</h2>
-        <img className="flag" src={flags.svg} />
+        <img className="flag" src={flags.svg} alt="flag" />
         <h4>Population: </h4>
         <span>{population}</span>
         <h4>Languages:</h4>
