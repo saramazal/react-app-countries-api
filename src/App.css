@@ -187,3 +187,40 @@ a:hover {
 
   }
 }
+
+
+
+
+.overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay.close {
+  display: none;
+}
+
+.popup {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.countryOpen h2 {
+  max-width: 150px;
+  margin-top: 0;
+}
+
+.countryOpen img {
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 10px;
+}

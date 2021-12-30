@@ -29,9 +29,7 @@ export default function Main() {
 
     return <main>
         <SearchContext.Provider value={setSearchValue}>
-            <Header
-                countriesNum={filteredList.length}
-            />
+            <Header countriesNum={filteredList.length} />
         </SearchContext.Provider>
         <CountriesList list={filteredList} />
     </main>
