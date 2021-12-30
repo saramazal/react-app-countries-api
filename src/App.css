@@ -89,7 +89,7 @@ li,
 li span {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: flex-start;
 }
 li:hover {transform: scale(1.1);}
