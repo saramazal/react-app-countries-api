@@ -34,7 +34,7 @@ npm install
 npm start
 
 ## Demo
-[Countries API](https://app.netlify.com/sites/mazal-countries-api-popup/settings/general)
+[Countries API](https://mazal-countries-api-popup.netlify.app/)
 
 
 ## Status
