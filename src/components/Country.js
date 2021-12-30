@@ -3,7 +3,7 @@ import { PopupContext } from "../App"
 
 export default function Country(props) {
 
-    const [popup, setPopup] = useContext(PopupContext)
+    const [, setPopup] = useContext(PopupContext)
     const { flags, name, capital, region } = props
 
     return <li onClick={() => setPopup(<CountryOpen {...props} />)}>
