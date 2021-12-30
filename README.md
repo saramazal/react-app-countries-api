@@ -1,7 +1,7 @@
 
 
 ## Project Name
-React App Countries API
+React App Countries API popup branch
 
 ## Table of contents
 * [General info](#general-info)
@@ -33,7 +33,7 @@ npm install
 npm start
 
 ## Demo
-[Countries API](https://mazal-countries-api.netlify.app/)
+[Countries API](https://app.netlify.com/sites/mazal-countries-api-popup/settings/general)
 
 
 ## Status
