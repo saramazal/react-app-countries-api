@@ -26,9 +26,10 @@ This project is inspired on restcountries.
 * GitHub
 * [Google fonts](https://fonts.google.com/?category=Sans+Serif,Display,Monospace&preview.text=Word%20Smith&preview.text_type=custom)
 * [REACT](https://reactjs.org/docs/getting-started.html/)
+* [![Netlify Status](https://api.netlify.com/api/v1/badges/e570f083-523a-43aa-ad53-55fcc70a520f/deploy-status)](https://app.netlify.com/sites/stoic-colden-153ca5/deploys)
 
 ## Demo
-[GET REQUEST Project DEMO](https://saramazal.github.io/get-request/)
+[Countries API](https://stoic-colden-153ca5.netlify.app/)
 
 
 ## Status
