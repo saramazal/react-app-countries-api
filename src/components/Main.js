@@ -2,6 +2,9 @@ import Header from './Header'
 import CountriesList from './CountriesList'
 import axios from 'axios'
 import { useEffect, useState, createContext } from 'react'
+import BoxesLoaderComponent from './BoxesLoaderComponent';
+
+
 
 export const SearchContext = createContext()
 
@@ -19,7 +22,8 @@ export default function Main() {
             })
     }
 
-    if (!list) return 'loading' 
+    if (!list) return <BoxesLoaderComponent />/*'loading' */
+                    
 
     const filteredList = list.filter(c =>
         c.name.common
@@ -31,6 +35,7 @@ export default function Main() {
    
         <SearchContext.Provider value={setSearchValue}>
          <Header countriesNum={filteredList.length} />
+         
         </SearchContext.Provider>
         
         <CountriesList list={filteredList} />

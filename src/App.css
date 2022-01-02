@@ -247,10 +247,10 @@ h4:hover {
 span {
   text-align: center;
  }
-.loading {
+loader {
  
   margin: 0 auto;
-  padding: 20px;
+  padding: 50px;
   border: 1px dotted #FF0266;
   border-radius: 50%;
   border-top: 16px solid #FF0266;
@@ -273,4 +273,8 @@ span {
 
 .yossef {
   padding: 12px;
+}
+.loader {
+  margin: auto;
+  padding: 50px;
 }
