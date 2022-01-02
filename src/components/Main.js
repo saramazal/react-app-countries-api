@@ -31,7 +31,8 @@ export default function Main() {
    
         <SearchContext.Provider value={setSearchValue}>
          <Header countriesNum={filteredList.length} />
-        </SearchContext.Provider><div className="loading"> </div>
+        </SearchContext.Provider>
+        
         <CountriesList list={filteredList} />
     </main>
 }
