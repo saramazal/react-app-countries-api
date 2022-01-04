@@ -33,9 +33,9 @@ npm install
 npm start
 
 ## Demo
-* [Countries API](https://mazal-countries-api.netlify.app/)
-* [wuth popup](https://mazal-countries-api-popup.netlify.app/)
-* [branch popup](https://github.com/saramazal/react-app-countries-api/tree/popup)
+* :globe_with_meridians: [Countries API](https://mazal-countries-api.netlify.app/)
+* :israel: [With popup](https://mazal-countries-api-popup.netlify.app/)
+* [Branch popup](https://github.com/saramazal/react-app-countries-api/tree/popup)
 
 
 ## Status
