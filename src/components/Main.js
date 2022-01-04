@@ -2,8 +2,8 @@ import Header from './Header'
 import CountriesList from './CountriesList'
 import axios from 'axios'
 import { useEffect, useState, createContext } from 'react'
-import BoxesLoaderComponent from './BoxesLoaderComponent';
-
+import Loader from "react-loader-spinner";
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 
 
 export const SearchContext = createContext()
@@ -22,7 +22,12 @@ export default function Main() {
             })
     }
 
-    if (!list) return <BoxesLoaderComponent />/*'loading' */
+    if (!list) return <Loader 
+                         arialLabel="loading-indicator"
+                         type="Circles"
+                         color="#FF0266"
+                         className="loader"
+                         radius="22" />/*'loading' */
                     
 
     const filteredList = list.filter(c =>

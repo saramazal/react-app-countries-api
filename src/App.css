@@ -247,13 +247,10 @@ h4:hover {
 span {
   text-align: center;
  }
-loader {
- 
-  margin: 0 auto;
+.loader {
+   margin: 50px auto;
   padding: 50px;
-  border: 1px dotted #FF0266;
-  border-radius: 50%;
-  border-top: 16px solid #FF0266;
+  
   width: 100px;
   height: 100px;
   -webkit-animation: spin 2s linear infinite; /* Safari */
@@ -273,8 +270,4 @@ loader {
 
 .yossef {
   padding: 12px;
-}
-.loader {
-  margin: auto;
-  padding: 50px;
 }
