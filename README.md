@@ -33,8 +33,9 @@ npm install
 npm start
 
 ## Demo
-[Countries API](https://mazal-countries-api.netlify.app/)
-[branch popup](https://github.com/saramazal/react-app-countries-api/tree/popup)
+* [Countries API](https://mazal-countries-api.netlify.app/)
+* [wuth popup](https://mazal-countries-api-popup.netlify.app/)
+* [branch popup](https://github.com/saramazal/react-app-countries-api/tree/popup)
 
 
 ## Status
