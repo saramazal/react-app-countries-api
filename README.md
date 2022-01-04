@@ -28,7 +28,7 @@ This project is inspired on restcountries.
 * [Awesome Loaders](https://github.com/ashutosh1919/react-awesome-loaders)
 * [Google fonts](https://fonts.google.com/?category=Sans+Serif,Display,Monospace&preview.text=Word%20Smith&preview.text_type=custom)
 * [REACT](https://reactjs.org/docs/getting-started.html/)
-* [![Netlify Status](https://api.netlify.com/api/v1/badges/494a99c8-db99-4b5b-b7da-74c49be94d96/deploy-status)](https://app.netlify.com/sites/mazal-countries-api-popup/deploys)
+* [![Netlify Status](https://api.netlify.com/api/v1/badges/a8ca1448-83bd-48d9-8404-643283cdf015/deploy-status)](https://app.netlify.com/sites/mazal-countries-api-popup/deploys)
 
 ## Setup
 npm install
