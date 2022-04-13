@@ -8,13 +8,12 @@ React App Countries API
 * [Screenshots](#screenshots)
 * [Technologies](#technologies)
 * [Setup](#setup)
-
 * [Status](#status)
-* [Inspiration](#inspiration)
+* [Inspiration and codebase](#inspiration-and-codebase)
 * [Contact](#contact)
 
 ## General info
-This project is inspired on restcountries. 
+This project is inspired on [REST Countries](https://restcountries.com/). 
 
 ## Screenshots
 ![Countries API](https://github.com/saramazal/react-app-countries-api/blob/main/Countries-API.png)
@@ -42,8 +41,8 @@ npm start
 Project is:  _finished_
 
 ## Inspiration and codebase
-Project based on lesson of [WORKIN](https://cyber.workin.co.il/)
+Project based on lesson of [WORKIN Code&Cyber College](https://cyber.workin.co.il/)
 
 
-## Design 
+## Contact 
 Created by [@saramazal](https://github.com/saramazal/) - feel free to contact me!
