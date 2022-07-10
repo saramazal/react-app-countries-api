@@ -6,6 +6,9 @@ const Wrapper = styled.article`
   box-shadow: var(--shadow);
   cursor: pointer;
   overflow: hidden;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  }
 `;
 
 const CardImage = styled.img`
@@ -15,6 +18,10 @@ const CardImage = styled.img`
   object-fit: cover;
   object-position: center;
   box-shadow: var(--shadow);
+  transition: transform 0.5s ease;
+  &:hover {
+    transform: scale(1.05);
+  }
 `;
 
 const CardBody = styled.div`
@@ -25,6 +32,11 @@ const CardTitle = styled.h3`
   margin: 0;
   font-size: var(--fs-md);
   font-weight: var(--fw-bold);
+    &:hover {
+    color: #ff0266;
+    cursor: pointer;
+  }
+
 `;
 
 const CardList = styled.ul`
@@ -39,6 +51,11 @@ const CardListItem = styled.li`
   font-weight: var(--fw-light);
   & > b {
     font-weight: var(--fw-bold);
+    &:hover {
+      color: #03dac6;
+      transform: scale(1.01);
+      cursor: pointer;
+    }
   }
 `;
 
