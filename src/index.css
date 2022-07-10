@@ -20,13 +20,12 @@
 
 body[data-theme='night'] {
   --colors-text: #faebd7;
-  --colors-bg: #1e1f26;
+  --colors-bg: #1a1b26;
   --colors-ui-base: #1e1f26;
-
   --shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
 }
 body[data-theme='day'] {
-  --colors-text: hsl(200, 15%, 8%);
+  --colors-text: #1e1f26;
   --colors-bg: #ecf7f4;
   --colors-ui-base: hsl(0, 0%, 100%);
   --shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;

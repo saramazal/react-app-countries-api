@@ -19,7 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage countries={countries} setCountries={setCountries} />} />
           <Route path='country/:name' element={<Details />} />
-         <Route element={<NotFound />} />
+          <Route element={<NotFound />} />
         </Routes>
       </Main>
     </>
