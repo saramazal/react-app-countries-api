@@ -13,5 +13,7 @@ export const Button = styled.button`
   gap: 0.75rem;
   color: var(--color-text);
   cursor: pointer;
+  &:hover {
+  border: 1px solid rgb(255, 2, 102);
 `
   
