@@ -30,6 +30,10 @@ const InfoImage = styled.img`
 const InfoTitle = styled.h1`
   margin: 0;
   font-weight: var(--fw-normal);
+ color: #03dac6;
+  &:hover {
+    color:  #ff0266;;
+  }
 `
 
 const ListGroup = styled.div`
@@ -50,6 +54,9 @@ const List = styled.ul`
 
 const ListItem = styled.li`
   line-height: 1.8;
+  &:hover {
+    color: #ff0266;
+  }
   & > b {
     font-weight: var(--fw-bold);
   }
@@ -61,6 +68,7 @@ const Meta = styled.div`
   gap: 1.5rem;
   flex-direction: column;
   align-items: flex-start;
+
   & > b {
     font-weight: var(--fw-bold);
   }
@@ -68,6 +76,7 @@ const Meta = styled.div`
     flex-direction: row;
     align-items: center;
   }
+  
 `
 
 const TagGroup = styled.div`
@@ -82,6 +91,10 @@ const Tag = styled.span`
   box-shadow: var(--shadow);
   line-height: 1.5;
   cursor: pointer;
+  &:hover {
+    color: #03dac6;
+    border: 1px solid #03dac6;
+  }
 `
 
 export const Info = props => {
