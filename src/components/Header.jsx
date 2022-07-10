@@ -28,11 +28,11 @@ font-family: 'Genos', sans-serif;
 color: #03dac6;
 letter-spacing: 2px;
 text-align: center;
-transition: all 0.3s ease;
+transition: transform 0.7s ease;
 text-decoration: none;
 &:hover {
   color: #ff0266;
-  transform: translate3d(0, -12px, 22px);
+  transform: scale(1.09);
   cursor: pointer;
 }
 `;
@@ -41,10 +41,11 @@ const ModeSwitcher = styled.div`
   color: var(--colors-text);
   font-size: var(--fs-sm);
   cursor: pointer;
-  // font-weight: var(--fw-bold);
-  text-transform: capitalize;
+ 
+  transition: transform 0.7s ease;
   &:hover {
     color: #ff0266;
+    transform: scale(1.2);
   }
 `;
 
