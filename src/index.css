@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;500;700&family=Montserrat:wght@500&family=Space+Mono:ital,wght@0,400;0,700;1,700&display=swap&family=Genos:wght@100;400;500;700");
+
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* Typography */
+  --family: 'Space Mono', sans-serif;
+  --fs-sm: 1em;
+  --fs-md: 1.5em;
+  --fw-light: 100;
+  --fw-normal: 200;
+  --fw-bold: 600;
+
+  /* Other */
+  --radii: 0.5rem;
+}
+
+body[data-theme='night'] {
+  --colors-text: #faebd7;
+  --colors-bg: #1e1f26;
+  --colors-ui-base: #1e1f26;
+
+  --shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+}
+body[data-theme='day'] {
+  --colors-text: hsl(200, 15%, 8%);
+  --colors-bg: #ecf7f4;
+  --colors-ui-base: hsl(0, 0%, 100%);
+  --shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+body {
+  margin: 0;
+  font-family: var(--family);
+  color: var(--colors-text);
+  font-weight: var(--fw-light);
+  background-color: var(--colors-bg);
+}
+
